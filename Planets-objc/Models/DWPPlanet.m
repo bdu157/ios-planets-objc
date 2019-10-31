@@ -8,7 +8,6 @@
 
 #import "DWPPlanet.h"
 
-
 @implementation DWPPlanet
 
 - (instancetype)initWithName:(NSString *)name

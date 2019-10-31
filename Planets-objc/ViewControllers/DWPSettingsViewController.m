@@ -30,8 +30,10 @@
 */
 
 - (IBAction)doneButtonTapped:(UIButton *)sender {
+    [self dismissViewControllerAnimated:true completion:nil];
 }
 
 - (IBAction)plutoSwitchToggled:(UISwitch *)sender {
+    
 }
 @end
