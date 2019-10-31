@@ -11,13 +11,6 @@
 
 @implementation DWPPlanet
 
-+ (instancetype)planetWithName:(NSString *)name
-                         image:(UIImage *)image;
-
-{
-    return [[self alloc] initWithName:name image:image];
-}
-
 - (instancetype)initWithName:(NSString *)name
                        image:(UIImage *)image;
 {

@@ -15,11 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 //initializer
 
-+ (instancetype)planetWithName:(NSString *)name
-                       image:(UIImage *)image;
-
 - (instancetype)initWithName:(NSString *)name
                        image:(UIImage *)image;
+
 
 //properties
 @property NSString *name;

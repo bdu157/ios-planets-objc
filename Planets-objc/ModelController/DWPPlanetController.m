@@ -16,15 +16,22 @@
     if (self = [super init]) {
         _planets = [
                     [NSArray alloc] initWithObjects:
-                    [DWPPlanet planetWithName:@"Mercury" image: [UIImage imageNamed:@"Mercury"]],
-                    [DWPPlanet planetWithName:@"Venus" image: [UIImage imageNamed:@"Venus"]],
-                    [DWPPlanet planetWithName:@"Earth" image: [UIImage imageNamed:@"Earth"]],
-                    [DWPPlanet planetWithName:@"Mars" image: [UIImage imageNamed:@"Mars"]],
-                    [DWPPlanet planetWithName:@"Jupiter" image: [UIImage imageNamed:@"Jupiter"]],
-                    [DWPPlanet planetWithName:@"Saturn" image: [UIImage imageNamed:@"Saturn"]],
+                    [[DWPPlanet alloc] initWithName:@"Mercury" image: [UIImage imageNamed:@"mercury"]],
+                    [[DWPPlanet alloc] initWithName:@"Venus" image: [UIImage imageNamed:@"venus"]],
+                    [[DWPPlanet alloc] initWithName:@"Earth" image: [UIImage imageNamed:@"earth"]],
+                    [[DWPPlanet alloc] initWithName:@"Mars" image: [UIImage imageNamed:@"mars"]],
+                    [[DWPPlanet alloc] initWithName:@"Jupiter" image: [UIImage imageNamed:@"jupiter"]],
+                    [[DWPPlanet alloc] initWithName:@"Saturn" image: [UIImage imageNamed:@"saturn"]],
+                    [[DWPPlanet alloc] initWithName:@"Uranus" image: [UIImage imageNamed:@"uranus"]],
+                    [[DWPPlanet alloc] initWithName:@"Neptune" image: [UIImage imageNamed:@"neptune"]],
                     nil
                     ];
     }
     return self;
 }
 @end
+
+
+//let planet = Planet(.....)
+//let planet = Planet.init
+//instance method
