@@ -9,6 +9,7 @@
 #import "DWPSettingsViewController.h"
 
 @interface DWPSettingsViewController ()
+@property (weak, nonatomic) IBOutlet UISwitch *plutoSwitch;
 
 @end
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.plutoSwitch setOn:[[NSUserDefaults standardUserDefaults] boolForKey:@"switchState"]];
 }
 
 /*
@@ -34,6 +36,6 @@
 }
 
 - (IBAction)plutoSwitchToggled:(UISwitch *)sender {
-    
+    [[NSUserDefaults standardUserDefaults] setBool:sender.isOn forKey:@"switchState"];
 }
 @end

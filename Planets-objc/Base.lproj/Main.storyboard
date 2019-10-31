@@ -126,6 +126,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cbH-El-fvC"/>
                     </view>
+                    <connections>
+                        <outlet property="plutoSwitch" destination="Vde-xE-7oO" id="Oek-ff-JQT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CaV-u4-tUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
