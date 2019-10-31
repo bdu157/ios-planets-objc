@@ -16,6 +16,8 @@
 		0B5E102E236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */; };
 		0B5E1032236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */; };
 		0B5E1035236A73D200CF4BEA /* DWPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */; };
+		0B5E1039236A799000CF4BEA /* DWPPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1038236A799000CF4BEA /* DWPPlanet.m */; };
+		0B5E103D236A79D900CF4BEA /* DWPPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E103C236A79D900CF4BEA /* DWPPlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPPlanetsCollectionViewCell.m; sourceTree = "<group>"; };
 		0B5E1033236A73D200CF4BEA /* DWPSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPSettingsViewController.h; sourceTree = "<group>"; };
 		0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPSettingsViewController.m; sourceTree = "<group>"; };
+		0B5E1037236A799000CF4BEA /* DWPPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPPlanet.h; sourceTree = "<group>"; };
+		0B5E1038236A799000CF4BEA /* DWPPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPPlanet.m; sourceTree = "<group>"; };
+		0B5E103B236A79D900CF4BEA /* DWPPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPPlanetController.h; sourceTree = "<group>"; };
+		0B5E103C236A79D900CF4BEA /* DWPPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPPlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,12 +74,9 @@
 		0B5E1012236A6D7400CF4BEA /* Planets-objc */ = {
 			isa = PBXGroup;
 			children = (
-				0B5E102C236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.h */,
-				0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */,
-				0B5E1030236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.h */,
-				0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */,
-				0B5E1033236A73D200CF4BEA /* DWPSettingsViewController.h */,
-				0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */,
+				0B5E103A236A799900CF4BEA /* Models */,
+				0B5E103E236A79E100CF4BEA /* ModelController */,
+				0B5E1036236A78EA00CF4BEA /* ViewControllers */,
 				0B5E101C236A6D7400CF4BEA /* Main.storyboard */,
 				0B5E1024236A6D7500CF4BEA /* Info.plist */,
 			);
@@ -92,6 +95,37 @@
 				0B5E1025236A6D7500CF4BEA /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B5E1036236A78EA00CF4BEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E102C236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.h */,
+				0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */,
+				0B5E1030236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.h */,
+				0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */,
+				0B5E1033236A73D200CF4BEA /* DWPSettingsViewController.h */,
+				0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0B5E103A236A799900CF4BEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E1037236A799000CF4BEA /* DWPPlanet.h */,
+				0B5E1038236A799000CF4BEA /* DWPPlanet.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0B5E103E236A79E100CF4BEA /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E103B236A79D900CF4BEA /* DWPPlanetController.h */,
+				0B5E103C236A79D900CF4BEA /* DWPPlanetController.m */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +201,8 @@
 				0B5E1015236A6D7400CF4BEA /* AppDelegate.m in Sources */,
 				0B5E1035236A73D200CF4BEA /* DWPSettingsViewController.m in Sources */,
 				0B5E1032236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m in Sources */,
+				0B5E103D236A79D900CF4BEA /* DWPPlanetController.m in Sources */,
+				0B5E1039236A799000CF4BEA /* DWPPlanet.m in Sources */,
 				0B5E102E236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m in Sources */,
 				0B5E1026236A6D7500CF4BEA /* main.m in Sources */,
 				0B5E1018236A6D7400CF4BEA /* SceneDelegate.m in Sources */,
