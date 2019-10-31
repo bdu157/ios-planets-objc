@@ -8,17 +8,18 @@
 
 #import "DWPPlanet.h"
 
+
 @implementation DWPPlanet
 
 + (instancetype)planetWithName:(NSString *)name
-                         image:(NSString *)image;
+                         image:(UIImage *)image;
 
 {
     return [[self alloc] initWithName:name image:image];
 }
 
 - (instancetype)initWithName:(NSString *)name
-                       image:(NSString *)image;
+                       image:(UIImage *)image;
 {
     if (self = [super init]) {
         _name = name;

@@ -16,15 +16,15 @@
     if (self = [super init]) {
         _planets = [
                     [NSArray alloc] initWithObjects:
-                    [DWPPlanet planetWithName:@"5" image:@"10"],
-                    [DWPPlanet planetWithName:@"5" image:@"10"],
-                    [DWPPlanet planetWithName:@"5" image:@"10"],
-                    [DWPPlanet planetWithName:@"5" image:@"10"],
+                    [DWPPlanet planetWithName:@"Mercury" image: [UIImage imageNamed:@"Mercury"]],
+                    [DWPPlanet planetWithName:@"Venus" image: [UIImage imageNamed:@"Venus"]],
+                    [DWPPlanet planetWithName:@"Earth" image: [UIImage imageNamed:@"Earth"]],
+                    [DWPPlanet planetWithName:@"Mars" image: [UIImage imageNamed:@"Mars"]],
+                    [DWPPlanet planetWithName:@"Jupiter" image: [UIImage imageNamed:@"Jupiter"]],
+                    [DWPPlanet planetWithName:@"Saturn" image: [UIImage imageNamed:@"Saturn"]],
                     nil
                     ];
     }
     return self;
 }
-
-
 @end

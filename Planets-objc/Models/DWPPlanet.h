@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -15,14 +16,14 @@ NS_ASSUME_NONNULL_BEGIN
 //initializer
 
 + (instancetype)planetWithName:(NSString *)name
-                       image:(NSString *)image;
+                       image:(UIImage *)image;
 
 - (instancetype)initWithName:(NSString *)name
-                       image:(NSString *)image;
+                       image:(UIImage *)image;
 
 //properties
 @property NSString *name;
-@property NSString *image;
+@property UIImage *image;
 
 
 @end
