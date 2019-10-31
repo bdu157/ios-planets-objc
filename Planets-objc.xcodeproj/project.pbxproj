@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		0B5E1015236A6D7400CF4BEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1014236A6D7400CF4BEA /* AppDelegate.m */; };
 		0B5E1018236A6D7400CF4BEA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1017236A6D7400CF4BEA /* SceneDelegate.m */; };
-		0B5E101B236A6D7400CF4BEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E101A236A6D7400CF4BEA /* ViewController.m */; };
 		0B5E101E236A6D7400CF4BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E101C236A6D7400CF4BEA /* Main.storyboard */; };
 		0B5E1020236A6D7500CF4BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E101F236A6D7500CF4BEA /* Assets.xcassets */; };
 		0B5E1023236A6D7500CF4BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E1021236A6D7500CF4BEA /* LaunchScreen.storyboard */; };
 		0B5E1026236A6D7500CF4BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1025236A6D7500CF4BEA /* main.m */; };
+		0B5E102E236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */; };
+		0B5E1032236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */; };
+		0B5E1035236A73D200CF4BEA /* DWPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,17 @@
 		0B5E1014236A6D7400CF4BEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0B5E1016236A6D7400CF4BEA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		0B5E1017236A6D7400CF4BEA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		0B5E1019236A6D7400CF4BEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0B5E101A236A6D7400CF4BEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0B5E101D236A6D7400CF4BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B5E101F236A6D7500CF4BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5E1022236A6D7500CF4BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B5E1024236A6D7500CF4BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B5E1025236A6D7500CF4BEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0B5E102C236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPPlanetsCollectionViewController.h; sourceTree = "<group>"; };
+		0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPPlanetsCollectionViewController.m; sourceTree = "<group>"; };
+		0B5E1030236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPPlanetsCollectionViewCell.h; sourceTree = "<group>"; };
+		0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPPlanetsCollectionViewCell.m; sourceTree = "<group>"; };
+		0B5E1033236A73D200CF4BEA /* DWPSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWPSettingsViewController.h; sourceTree = "<group>"; };
+		0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWPSettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				0B5E1012236A6D7400CF4BEA /* Planets-objc */,
+				0B5E102F236A6F2E00CF4BEA /* Resources */,
 				0B5E1011236A6D7400CF4BEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,19 +68,30 @@
 		0B5E1012236A6D7400CF4BEA /* Planets-objc */ = {
 			isa = PBXGroup;
 			children = (
+				0B5E102C236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.h */,
+				0B5E102D236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m */,
+				0B5E1030236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.h */,
+				0B5E1031236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m */,
+				0B5E1033236A73D200CF4BEA /* DWPSettingsViewController.h */,
+				0B5E1034236A73D200CF4BEA /* DWPSettingsViewController.m */,
+				0B5E101C236A6D7400CF4BEA /* Main.storyboard */,
+				0B5E1024236A6D7500CF4BEA /* Info.plist */,
+			);
+			path = "Planets-objc";
+			sourceTree = "<group>";
+		};
+		0B5E102F236A6F2E00CF4BEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0B5E1013236A6D7400CF4BEA /* AppDelegate.h */,
 				0B5E1014236A6D7400CF4BEA /* AppDelegate.m */,
 				0B5E1016236A6D7400CF4BEA /* SceneDelegate.h */,
 				0B5E1017236A6D7400CF4BEA /* SceneDelegate.m */,
-				0B5E1019236A6D7400CF4BEA /* ViewController.h */,
-				0B5E101A236A6D7400CF4BEA /* ViewController.m */,
-				0B5E101C236A6D7400CF4BEA /* Main.storyboard */,
 				0B5E101F236A6D7500CF4BEA /* Assets.xcassets */,
 				0B5E1021236A6D7500CF4BEA /* LaunchScreen.storyboard */,
-				0B5E1024236A6D7500CF4BEA /* Info.plist */,
 				0B5E1025236A6D7500CF4BEA /* main.m */,
 			);
-			path = "Planets-objc";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5E101B236A6D7400CF4BEA /* ViewController.m in Sources */,
 				0B5E1015236A6D7400CF4BEA /* AppDelegate.m in Sources */,
+				0B5E1035236A73D200CF4BEA /* DWPSettingsViewController.m in Sources */,
+				0B5E1032236A719E00CF4BEA /* DWPPlanetsCollectionViewCell.m in Sources */,
+				0B5E102E236A6F0400CF4BEA /* DWPPlanetsCollectionViewController.m in Sources */,
 				0B5E1026236A6D7500CF4BEA /* main.m in Sources */,
 				0B5E1018236A6D7400CF4BEA /* SceneDelegate.m in Sources */,
 			);
