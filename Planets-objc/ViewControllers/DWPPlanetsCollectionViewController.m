@@ -19,6 +19,12 @@
 
 @implementation DWPPlanetsCollectionViewController
 
+- (void)viewWillAppear {
+    [super viewWillAppear:true];
+    [self.collectionView reloadData];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

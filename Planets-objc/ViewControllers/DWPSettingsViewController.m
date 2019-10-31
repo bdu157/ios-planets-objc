@@ -7,6 +7,7 @@
 //
 
 #import "DWPSettingsViewController.h"
+#import "DWPPlanetsCollectionViewController.h"
 
 @interface DWPSettingsViewController ()
 @property (weak, nonatomic) IBOutlet UISwitch *plutoSwitch;
