@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DWPPlanetController : NSObject
 
 @property NSArray<DWPPlanet *> *planets;
-@property (nonatomic) bool shouldShowPluto;
+//@property (assign, nonatomic) bool shouldShowPluto;
 
 @end
 

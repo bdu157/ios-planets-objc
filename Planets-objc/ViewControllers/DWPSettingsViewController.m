@@ -33,10 +33,11 @@
 */
 
 - (IBAction)doneButtonTapped:(UIButton *)sender {
-    [self dismissViewControllerAnimated:true completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)plutoSwitchToggled:(UISwitch *)sender {
-    [[NSUserDefaults standardUserDefaults] setBool:sender.isOn forKey:@"switchState"];
+    [[NSUserDefaults standardUserDefaults] setBool:self.plutoSwitch.isOn forKey:@"switchState"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
 @end

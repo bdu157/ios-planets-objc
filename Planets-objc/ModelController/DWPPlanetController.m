@@ -12,16 +12,13 @@
 
 @implementation DWPPlanetController
 
--(bool)shouldShowPluto {
-    return [[NSUserDefaults standardUserDefaults] boolForKey:@"switchState"];
-}
-
-
 - (instancetype)init
 {
     if (self = [super init]) {
         
-        if (!_shouldShowPluto) {
+        BOOL shouldShowPluto = [[NSUserDefaults standardUserDefaults] boolForKey:@"switchState"];
+        
+        if (!shouldShowPluto) {
             _planets = [
                         [NSArray alloc] initWithObjects:
                         [[DWPPlanet alloc] initWithName:@"Mercury" image: [UIImage imageNamed:@"mercury"]],

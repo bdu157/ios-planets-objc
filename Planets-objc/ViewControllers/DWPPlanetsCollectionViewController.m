@@ -19,15 +19,20 @@
 
 @implementation DWPPlanetsCollectionViewController
 
-- (void)viewWillAppear {
-    [super viewWillAppear:true];
+
+
+- (void)viewWillAppear:(BOOL)animated
+{
+   [super viewWillAppear: animated];
+    _dwpplanetController = [[DWPPlanetController alloc] init];
     [self.collectionView reloadData];
+    //shouldShowPluto or withoutpluto
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+        
     _dwpplanetController = [[DWPPlanetController alloc] init];
 }
 

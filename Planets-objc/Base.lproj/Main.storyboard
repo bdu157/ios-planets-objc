@@ -74,7 +74,7 @@
                     <navigationItem key="navigationItem" id="I0g-iU-GiF">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="T4z-1F-oUz">
                             <connections>
-                                <segue destination="Srt-lL-ojP" kind="presentation" identifier="ToSettingsView" id="1WM-JC-We5"/>
+                                <segue destination="Srt-lL-ojP" kind="presentation" identifier="ToSettingsView" modalPresentationStyle="fullScreen" id="1WM-JC-We5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
